@@ -1,5 +1,20 @@
 public class unaryOperator{
 	public static void main (String [] args){
+		int q=10;
+		System.out.print(q++);
+		
+		System.out.println("	int q=10 q++");
+		
+		int q1=10;
+		System.out.print(++q1);
+		
+		System.out.println("	int q1=10 ++q1");
+		
+		int q2=10;
+		System.out.print(++q2 + ++q2);
+		
+		System.out.println("	int q2=10 ++q2 + ++q2");
+		
 	
 		for(int x=0; x<=5; x++){ 
 		System.out.print(x);  // 012345
@@ -42,7 +57,27 @@ public class unaryOperator{
 		}
 		
 		System.out.println("\t"+"for(int m=10; m>=5; m=m-1)");
+			
+		System.out.print (10<<2);
+		System.out.println("\t"+ "10<<2" );
 		
+		System.out.print (10<<3);
+		System.out.println("\t"+ "10<<3" );
 		
+		System.out.print (10>>2);
+		System.out.println("\t"+ "10>>2" );
+		
+		System.out.print (10>>3);
+		System.out.println("\t"+ "10>>3" );
+		
+		System.out.print (10>>>2);
+		System.out.println("\t"+ "10>>>2" );
+		
+		System.out.print (-10>>>2);
+		System.out.println("\t"+ "-10>>>2" );
+		
+
 	}
+
+		
 }
